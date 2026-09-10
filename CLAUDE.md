@@ -47,6 +47,7 @@ here.
 | --- | --- |
 | `assets/banner.gif` | Animated katakana digital rain, 1000x180, 30 frames at 90ms, name burned in |
 | `assets/hdr-*.svg` | Section headers drawn as terminal prompts, `> HEADING` plus a cursor block |
+| `assets/hdr-stack.svg` | Same, for the STACK block at the bottom |
 | `assets/btn-*.svg` | Link buttons, square border with clipped corners and scanlines |
 
 Every glyph in every asset is a real rectangle drawn from a hand-built 5x7 bitmap
@@ -82,6 +83,17 @@ script and rerun it. Everything else derives from it.
 
 Roll back with `git reset --hard <tag> && git push --force origin main`.
 
+## Stack block
+
+The bottom of the README carries a two line stack block, backend on one line and AI
+systems on the other, separated by `·`. It exists for keyword matching, nothing else,
+so it sits below the evidence rather than above it.
+
+Rule for what goes in it: only terms the user would defend in an interview. Every AI
+term currently listed traces to shipped work, an MCP server on npm, voice agents, the
+multi-agent research, on-device LLM work, fine-tuning, and evals. Two exceptions are
+noted under open items.
+
 ## Set outside this repo
 
 These cannot be committed and have to be done in the GitHub web UI:
@@ -93,11 +105,19 @@ These cannot be committed and have to be done in the GitHub web UI:
 - Profile sidebar at github.com/settings/profile: photo, bio, location, website,
   and the four social account slots.
 
+Drafted copy for the GitHub bio, the LinkedIn headline, and the LinkedIn About
+section lives in `../context/profile-copy.md`. Keep all three consistent with the
+README, since a recruiter reads them within a minute of each other.
+
 ## Open items
 
+- RAG and retrieval pipelines appear in the stack block on the user's instruction, but
+  no public repo backs them. Either build or link evidence, or remove the two terms.
+- Kubernetes, Kafka, AWS, GCP, gRPC, Terraform, and Go were deliberately left out,
+  pending confirmation that the user has real depth in them.
 - AudiTex still needs its homepage field pointed at the Chrome Web Store listing.
 - The portfolio "Now" page at bhuvanrj.me is stale, dated March 2026, and describes
   the falsification research as a course project rather than first-author work.
-- A "Stack" line of keywords was discussed and deliberately left out. If it is added,
-  it goes at the bottom as one plain line, listing only what would survive an
-  interview.
+- Commits in this repo carry a Claude co-author trailer, which conflicts with the
+  user's standing preference to be sole author. Offered a history rewrite, awaiting a
+  decision.
