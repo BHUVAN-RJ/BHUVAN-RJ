@@ -66,9 +66,13 @@ for f in range(FRAMES):
                 fade = 1 - (t / st["trail"])
                 col = blend(DIM, BRIGHT, fade * fade)
             d.text((c * COL_W, ry * FONT_SZ), ch, font=font, fill=col)
-    # dim band behind the name so it stays legible over the rain
-    band = Image.new("RGB", (W, 7 * PX + 26), BG)
-    img.paste(band, (0, ny - 13))
+    # Darken only behind the name, and only partially, so the rain keeps
+    # falling through it and continues uninterrupted down both sides.
+    bx0, bx1 = nx - 5 * PX, nx + nw + 5 * PX
+    by0, by1 = ny - 11, ny + 7 * PX + 11
+    region = img.crop((bx0, by0, bx1, by1))
+    shade  = Image.new("RGB", region.size, BG)
+    img.paste(Image.blend(region, shade, 0.72), (bx0, by0))
     d = ImageDraw.Draw(img)
     pixel_text(d, NAME, nx, ny, PX, BRIGHT)
     frames.append(img.quantize(colors=48, method=Image.MEDIANCUT))

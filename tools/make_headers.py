@@ -2,9 +2,9 @@
 import sys; sys.path.insert(0, 'tools')
 from pixelfont import text_path, text_width
 
-PX, PADX, PADY = 4, 12, 12
+PX, PADX, PADY = 3, 10, 9
 BG, FG, DIM = "#000000", "#00ff41", "#008f11"
-W = 900
+W = 820
 
 HDRS = {
  "currently-building": "CURRENTLY BUILDING",

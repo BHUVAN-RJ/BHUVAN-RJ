@@ -1,9 +1,9 @@
 import sys; sys.path.insert(0, 'tools')
 from pixelfont import text_path, text_width
 
-PX   = 3          # pixel size
-PADX = 5 * PX
-PADY = 5 * PX
+PX   = 2          # pixel size
+PADX = 6 * PX
+PADY = 6 * PX
 BORD = PX         # chunky square border
 
 BG, FG, DIM = "#000000", "#00ff41", "#008f11"
