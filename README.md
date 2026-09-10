@@ -23,3 +23,9 @@ MS Computer Science, USC, graduating December 2026 · Los Angeles, CA
 ![Shipped](assets/hdr-shipped.svg)
 
 [![AudiTex on the Chrome Web Store](assets/btn-webstore.svg)](https://chromewebstore.google.com/detail/auditex-tts/ikiaabefahnnfjninfhfeolbgkfnldpa) [![chrome-extension-tester-mcp on npm](assets/btn-npm.svg)](https://www.npmjs.com/package/chrome-extension-tester-mcp)
+
+![Stack](assets/hdr-stack.svg)
+
+**Backend:** Python · FastAPI · Redis · PostgreSQL · Docker · CI/CD · load testing · C++ · TypeScript
+
+**AI systems:** LLM agents · multi-agent systems · agentic workflows · MCP servers · voice agents · RAG · retrieval pipelines · model fine-tuning · LLM evaluation · on-device LLMs · ONNX Runtime · model quantization · PyTorch · browser automation with Playwright

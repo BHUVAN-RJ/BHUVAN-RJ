@@ -11,6 +11,7 @@ HDRS = {
  "research":           "RESEARCH",
  "experience":         "EXPERIENCE",
  "shipped":            "SHIPPED",
+ "stack":              "STACK",
 }
 
 for slug, label in HDRS.items():
