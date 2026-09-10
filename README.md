@@ -3,7 +3,7 @@
 Backend and distributed systems engineer — services that stay fast and correct under real load.
 MS Computer Science, USC — graduating December 2026 · Los Angeles, CA
 
-[![Portfolio](assets/btn-portfolio.svg)](https://bhuvanrj.me/portfolio/) [![Resume (PDF)](assets/btn-resume.svg)](https://bhuvanrj.me/portfolio/assets/Bhuvan_Rajanahally_Jayakumar_Resume.pdf) [![LinkedIn](assets/btn-linkedin.svg)](https://www.linkedin.com/in/bhuvan-rajanahally-jayakumar) [![Email](assets/btn-email.svg)](mailto:rajanaha@usc.edu) [![Essays](assets/btn-essays.svg)](https://bhuvanrj.me/portfolio/essays.html)
+[![Portfolio](assets/btn-portfolio.svg)](https://bhuvanrj.me/portfolio/) [![Resume, PDF](assets/btn-resume.svg)](https://bhuvanrj.me/portfolio/assets/Bhuvan_Rajanahally_Jayakumar_Resume.pdf) [![LinkedIn](assets/btn-linkedin.svg)](https://www.linkedin.com/in/bhuvan-rajanahally-jayakumar) [![Email](assets/btn-email.svg)](mailto:rajanaha@usc.edu) [![Essays](assets/btn-essays.svg)](https://bhuvanrj.me/portfolio/essays.html)
 
 ## Currently building
 
