@@ -27,10 +27,17 @@ MS Computer Science, USC, graduating December 2026 · Los Angeles, CA
 ![Stack](assets/hdr-stack.svg)
 
 ```
-BACKEND      Python · FastAPI · Redis · PostgreSQL · Docker · CI/CD · load testing
-AI SYSTEMS   LLM agents · multi-agent systems · agentic workflows · MCP servers
-             voice agents · RAG · retrieval pipelines · model fine-tuning · evals
-ON-DEVICE    on-device LLMs · ONNX Runtime · model quantization · PyTorch
-LANGUAGES    Python · C++ · TypeScript
-TOOLING      Playwright · Docker Compose · pytest
+┌────────────┬────────────────────────────────────────────────────────────────────┐
+│ BACKEND    │ Python, FastAPI, Redis, PostgreSQL, Docker, CI/CD, load testing    │
+├────────────┼────────────────────────────────────────────────────────────────────┤
+│ AI SYSTEMS │ LLM agents, multi-agent systems, agentic workflows, MCP servers,   │
+│            │ voice agents, RAG, retrieval pipelines, model fine-tuning, LLM     │
+│            │ evaluation                                                         │
+├────────────┼────────────────────────────────────────────────────────────────────┤
+│ ON-DEVICE  │ on-device LLMs, ONNX Runtime, model quantization, PyTorch          │
+├────────────┼────────────────────────────────────────────────────────────────────┤
+│ LANGUAGES  │ Python, C++, TypeScript                                            │
+├────────────┼────────────────────────────────────────────────────────────────────┤
+│ TOOLING    │ Playwright, Docker Compose, pytest                                 │
+└────────────┴────────────────────────────────────────────────────────────────────┘
 ```
