@@ -22,4 +22,4 @@ MS Computer Science, USC — graduating December 2026 · Los Angeles, CA
 
 ## Shipped
 
-[![npm: chrome-extension-tester-mcp](assets/btn-npm.svg)](https://www.npmjs.com/package/chrome-extension-tester-mcp)
+[![AudiTex on the Chrome Web Store](assets/btn-webstore.svg)](https://chromewebstore.google.com/detail/auditex-tts/ikiaabefahnnfjninfhfeolbgkfnldpa) [![chrome-extension-tester-mcp on npm](assets/btn-npm.svg)](https://www.npmjs.com/package/chrome-extension-tester-mcp)

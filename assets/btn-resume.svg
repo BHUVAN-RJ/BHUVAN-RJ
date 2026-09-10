@@ -1,4 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="140" height="40" role="img" aria-label="Resume (PDF)">
-  <rect x="0.5" y="0.5" width="139" height="39" rx="8" fill="#1f2328" stroke="#4a515b"/>
-  <text x="70.0" y="21.0" fill="#ffffff" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="14.5" font-weight="600" text-anchor="middle" dominant-baseline="middle">Resume (PDF)</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="157" height="42" role="img" aria-label="Resume (PDF)">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#30363d"/><stop offset="1" stop-color="#1a1f26"/>
+    </linearGradient>
+    <linearGradient id="s" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.22"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.04"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.30"/>
+    </linearGradient>
+  </defs>
+  <rect x="0.75" y="0.75" width="155.5" height="40.5" rx="10" fill="url(#g)"/>
+  <rect x="0.75" y="0.75" width="155.5" height="40.5" rx="10" fill="none" stroke="url(#s)" stroke-width="1.5"/>
+  <rect x="2.5" y="1.9" width="152" height="1" rx="0.5" fill="#ffffff" opacity="0.13"/>
+  <rect x="40.5" y="11" width="1" height="20" fill="#ffffff" opacity="0.09"/>
+  <g transform="translate(14,13.0)" fill="none" stroke="#9aa7b4" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 1.2h6.5L13 4.7V14.8H3z"/><path d="M9.3 1.4v3.5h3.5M5.6 8.4h4.8M5.6 11.2h4.8"/></g>
+  <text x="45" y="21.5" fill="#e8edf3" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="14.5" font-weight="600" dominant-baseline="middle">Resume (PDF)</text>
 </svg>
