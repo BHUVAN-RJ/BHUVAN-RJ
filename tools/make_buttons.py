@@ -6,7 +6,7 @@ PADX = 5 * PX
 PADY = 5 * PX
 BORD = PX         # chunky square border
 
-BG, FG, DIM = "#0b1410", "#3bf07a", "#1d6b3c"
+BG, FG, DIM = "#000000", "#00ff41", "#008f11"
 
 BTNS = {
  "portfolio": "PORTFOLIO",
