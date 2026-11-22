@@ -2,10 +2,10 @@
 import re, textwrap
 
 ROWS = [
- ("BACKEND",    "Python, FastAPI, Redis, PostgreSQL, Docker, CI/CD, load testing"),
+ ("BACKEND",    "Python, FastAPI, Node.js, PostgreSQL, Redis, Docker, CI/CD, Cloudflare Workers, load testing with k6, Prometheus"),
  ("AI SYSTEMS", "LLM agents, multi-agent systems, agentic workflows, MCP servers, voice agents, RAG, retrieval pipelines, model fine-tuning, LLM evaluation"),
  ("ON-DEVICE",  "on-device LLMs, ONNX Runtime, model quantization, PyTorch"),
- ("LANGUAGES",  "Python, C++, TypeScript"),
+ ("LANGUAGES",  "Python, SQL, TypeScript, C++"),
  ("TOOLING",    "Playwright, Docker Compose, pytest"),
 ]
 

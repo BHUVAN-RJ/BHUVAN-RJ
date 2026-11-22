@@ -18,7 +18,7 @@ MS Computer Science, USC, graduating December 2026 · Los Angeles, CA
 ![Experience](assets/hdr-experience.svg)
 
 - **Backend & Cloud Engineering Intern**, USC Grand Challenges Scholars Program, Jul 2026 to present. Built the GCSP Connect backend for scholars at 100+ engineering schools, launching in beta at USC and ASU. Designed 26 PostgreSQL tables for forums, real-time channels, direct messages, notifications and moderation, with access enforced in the database by 44 row-level security policies.
-- **Software Engineer Intern**, Stylebot, Apr to Aug 2025. Owned a FastAPI NLP microservice for 20+ enterprise media clients at 50K+ requests/day. Cut p95 latency 52%, 2.3s to 1.1s, with Redis caching and async I/O. USC Early Career Innovator Award.
+- **Software Engineer Intern**, Stylebot, Apr to Aug 2025. Owned a FastAPI NLP microservice for 20+ enterprise media clients at 50K+ requests/day. Cut p95 latency 52%, 2.3s to 1.1s, with Redis caching and async I/O.
 - **Project Intern**, Indian Institute of Science, Oct 2023 to May 2024. Pose-estimation keypoint accuracy 70% to 95%, annotation time 60s to 15s across 10,000+ images. Led 4 interns.
 - **Google Summer of Code**, Plone Foundation, 2022. Ported the ftw.trash recycle-bin add-on and two dependencies from Python 2 to 3 for Plone 6, plus ~50 tests.
 
@@ -30,7 +30,8 @@ MS Computer Science, USC, graduating December 2026 · Los Angeles, CA
 
 ```
 ┌────────────┬────────────────────────────────────────────────────────────────────┐
-│ BACKEND    │ Python, FastAPI, Redis, PostgreSQL, Docker, CI/CD, load testing    │
+│ BACKEND    │ Python, FastAPI, Node.js, PostgreSQL, Redis, Docker, CI/CD,        │
+│            │ Cloudflare Workers, load testing with k6, Prometheus               │
 ├────────────┼────────────────────────────────────────────────────────────────────┤
 │ AI SYSTEMS │ LLM agents, multi-agent systems, agentic workflows, MCP servers,   │
 │            │ voice agents, RAG, retrieval pipelines, model fine-tuning, LLM     │
@@ -38,7 +39,7 @@ MS Computer Science, USC, graduating December 2026 · Los Angeles, CA
 ├────────────┼────────────────────────────────────────────────────────────────────┤
 │ ON-DEVICE  │ on-device LLMs, ONNX Runtime, model quantization, PyTorch          │
 ├────────────┼────────────────────────────────────────────────────────────────────┤
-│ LANGUAGES  │ Python, C++, TypeScript                                            │
+│ LANGUAGES  │ Python, SQL, TypeScript, C++                                       │
 ├────────────┼────────────────────────────────────────────────────────────────────┤
 │ TOOLING    │ Playwright, Docker Compose, pytest                                 │
 └────────────┴────────────────────────────────────────────────────────────────────┘
